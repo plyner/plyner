@@ -12,7 +12,7 @@
 		$url = 'https://api.plyner.com.br/zap';
 
 		// Define o corpo da requisição como um JSON
-		$data = array('meuid' => 36, 'senha' => '22222', 'destinatario' => '16991214371', 'msg' => 'somente texto ', 'enviador' => 191);
+		$data = array('meuid' => 36, 'senha' => '22222', 'destinatario' => '11991215555', 'msg' => 'somente texto ', 'enviador' => 191);
 		$data_string = json_encode($data);
 
 		// Define as opções da requisição
@@ -33,5 +33,6 @@
 
 		// Exibe a resposta
 		echo $response;
+
 
 ?>
