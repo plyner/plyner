@@ -18,7 +18,7 @@
 		$media = base64_encode($data);
 
 		// Define o corpo da requisição como um JSON
-		$data = array('meuid' => 36, 'senha' => '2222', 'destinatario' => '16991214371', 'msg' => 'teste com video', 'enviador' => 191, 'tipoanexo' => 4, 'anexomsg' => 'video.mp4', 'anexo64' => $media);
+		$data = array('meuid' => 36, 'senha' => '2222', 'destinatario' => '11991215555', 'msg' => 'teste com video', 'enviador' => 191, 'tipoanexo' => 4, 'anexomsg' => 'video.mp4', 'anexo64' => $media);
 		$data_string = json_encode($data);
 
 		// Define as opções da requisição
@@ -39,5 +39,6 @@
 
 		// Exibe a resposta
 		echo $response;
+
 
 ?>
